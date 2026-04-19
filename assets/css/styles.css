@@ -2012,7 +2012,7 @@ body::before {
 
 
 /* ============================================================= */
-/* V2 EDITORIAL REDESIGN — APRIL 2026 */
+/* V2 EDITORIAL REDESIGN ï¿½ APRIL 2026 */
 /* ============================================================= */
 
 /* =============================================================
@@ -3551,7 +3551,7 @@ body[data-has-fixed-nav] { padding-top: 0; }
     overflow: hidden;
     pointer-events: none;
 }
-.hero-2026__video iframe {
+.hero-2026__video video {
     position: absolute;
     top: 50%; left: 50%;
     width: 100vw;
@@ -3561,6 +3561,7 @@ body[data-has-fixed-nav] { padding-top: 0; }
     transform: translate(-50%, -50%) scale(1.3);
     border: 0;
     pointer-events: none;
+    object-fit: cover;
     filter: saturate(1.08) contrast(1.02) brightness(0.82);
 }
 .hero-2026__video::after {
@@ -3770,7 +3771,7 @@ body[data-has-fixed-nav] { padding-top: 0; }
     left: 0; right: 0; bottom: clamp(1rem, 3vh, 2rem);
     z-index: 3;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr auto;
     align-items: end;
     padding-inline: clamp(1.4rem, 4vw, 3rem);
     gap: var(--space-m);
@@ -3822,7 +3823,7 @@ body[data-has-fixed-nav] { padding-top: 0; }
 
 @media (max-width: 900px) {
     .hero-2026__side { display: none; }
-    .hero-2026__meta { grid-template-columns: 1fr; text-align: center; gap: 0.6rem; }
+    .hero-2026__meta { grid-template-columns: 1fr; text-align: center; justify-items: center; gap: 0.6rem; }
     .hero-2026__meta .col-r, .hero-2026__meta .col-c { text-align: center; }
     .hero-2026__corner { width: 20px; height: 20px; }
     .hero-2026__inner { padding-bottom: 7rem; }

@@ -1820,6 +1820,17 @@ html.is-leaving .page-transition::after {
     width: 40px; height: 1px; background: var(--gold-500);
     display: inline-block;
 }
+.chapter-num {
+    color: var(--gold-400);
+    font-weight: 500;
+    font-size: 0.85rem;
+    margin-right: 0.3em;
+}
+.scroll-story__kicker .chapter-num {
+    color: var(--gold-400);
+    font-weight: 500;
+    font-size: 0.85rem;
+}
 .scroll-story__quote {
     font-family: var(--font-display);
     font-size: clamp(2rem, 5vw, 4.4rem);

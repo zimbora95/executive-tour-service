@@ -2551,6 +2551,28 @@ html.is-leaving .page-transition__logo {
     margin-inline: auto;
 }
 .intro-v2__quote em { font-style: italic; color: var(--gold-600); }
+.intro-v2__body {
+    font-family: var(--font-body);
+    font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+    line-height: 1.75;
+    color: var(--ink-600);
+    max-width: 52ch;
+    margin-inline: auto;
+    margin-top: var(--space-l);
+}
+.intro-v2__headline {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(2rem, 4.5vw, 3.6rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #1a1a1a !important;
+    max-width: 22ch;
+    margin-inline: auto;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
 .intro-v2__signoff {
     margin-top: var(--space-l);
     font-family: var(--font-body);
